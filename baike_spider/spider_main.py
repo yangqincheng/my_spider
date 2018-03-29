@@ -36,6 +36,8 @@ class SpiderMain(object):
                 if count == 1000:
                     break
                 count = count + 1
+
+
             except:
                 print('craw failed')
         self.outputer.output_html()
